@@ -27,6 +27,7 @@
         margin-bottom: 10px;
         span {
             font-weight: 700;
+            align-items: baseline;
         }
     }
     &__btn {
@@ -38,5 +39,12 @@
         color: #fff;
         font-size: 16px;
         cursor: pointer;
+    }
+
+       span {
+           &__icon {
+               display: inline;
+               float: left;
+       }
     }
 }
